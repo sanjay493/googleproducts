@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins|Roboto" rel="stylesheet">
+     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand">Google Product</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#showcase">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#testimonial" tabindex="-1">Testimonial</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#info1" tabindex="-1">Info-1</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+
+<section id="showcase">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col sm-6">
+             <div class="showcase-left">
+                    <img src="img/image1.jpg" alt="">
+             </div>
+            </div>
+            <div class="col-md-6 col sm-6">
+                <div class="showcase-right">
+                    <h1>Google Home Assistant</h1>
+                    <p>Get answers, play songs, tackle your day, enjoy your entertainment and control your smart home with just your voice.¹
+                        </p>
+                  </div>
+
+                  <br>
+                  <a class="btn btn-success btn-lg showcase-btn" href="">Read More</a>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<section id="testimonial">
+    <div class="container">
+        <p>Listen to music, playlists, audiobooks and more, getting rich sound from Google Home’s high excursion speaker.2
+            </p>
+            <p class="customer">-John Doe</p>
+    </div>
+
+</section>
+
+
+<section id="info1">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+         <div class="info-left">
+             <img src="img/image2.jpg" alt="">
+         </div>   
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="info-right">
+            <h2>Get to Know Google Home</h2>  
+            <p>The new Google Home Mini suits this use perfectly. Google's latest smart speaker emphasizes smart over speaker: it's a small pebble of a thing, about the size of a crosswise slice of a softball.</p>  
+        <br>
+        <a href="" class="btn btn-success btn-lg">Read More</a>    
+        </div>   
+           </div>
+    </div>
+</div>
+</section>
+
+
+<hr>
+<section id="info2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+             <div class="info-left">
+                <h2>Get to Know Google Home</h2>  
+                <p>The new Google Home Mini suits this use perfectly. Google's latest smart speaker emphasizes smart over speaker: it's a small pebble of a thing, about the size of a crosswise slice of a softball.</p>  
+           
+             </div>   
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="info-right">
+                <h2>Get to Know Google Home</h2>  
+                <p>The new Google Home Mini suits this use perfectly. Google's latest smart speaker emphasizes smart over speaker: it's a small pebble of a thing, about the size of a crosswise slice of a softball.</p>  
+            <br>
+            </div>   
+               </div>
+        </div>
+    </div>
+    </section>
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script>
+  window.sr = ScrollReveal();
+  sr.reveal('.navbar',{
+      duration:2000,
+      origin:'bottom'
+  });
+
+  sr.reveal('.showcase-left',{
+      duration:2000,
+      origin:'left',
+      distance:'300px'
+  });
+  sr.reveal('.showcase-right',{
+      duration:2000,
+      origin:'right',
+      distance:'300px'
+  });
+  sr.reveal('.showcase-btn',{
+      duration:2000,
+      origin:'bottom',
+      delay:2000
+  });
+  sr.reveal('#testimonial div',{
+      duration:2000,
+      origin:'bottom',
+      
+  });
+  sr.reveal('.info-left',{
+      duration:2000,
+      origin:'left',
+      distance:'300px',
+      viewFactor:0.2
+  });
+  sr.reveal('.info-right',{
+      duration:2000,
+      origin:'right',
+      distance:'300px',
+      viewFactor:0.2
+  });
+  
+  
+  </script>
+<script>
+$(function(){
+    //smooth scrolling
+    $('(a[href='#']:not[href='#'])').click(fubnction(){
+        if(
+            location.pathname.replace(/^\//,'') ==this.pathname.replace(/^\//,'')&&
+            location.hostname == this.hostname){
+                var target = $(this.hash);
+            target=target.length ? target : $('[name='+this.hash.slice(1)+']');
+            if(target.length){
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                },1000);
+                return false;
+            }
+            }
+        )
+    });
+});
+
+</script>
+
+</body>
+</html>
